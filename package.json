@@ -1,16 +1,20 @@
 {
-  "name": "gutgon",
+  "name": "soldier_badge",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node app.js"
+    "start": "node dist/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "colorful-debugger": "1.0.3",
     "dayjs": "^1.10.4",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.13"
   }
 }
