@@ -39,10 +39,12 @@ node dist/index.js # 서버 PORT 기본 값 = 3000
 
 ## Contribute
 
+Update Please
+
 ## Questions
 
 * GitHub - [open issue](https://github.com/Resten1497/soldier_badge/issues)
 
 ## License
 
-NONE
+Update Please
