@@ -37,6 +37,12 @@ tsc
 node dist/index.js # 서버 PORT 기본 값 = 3000
 ```
 
+or
+
+```sh
+npm start # 서버 PORT 기본 값 = 3000
+```
+
 ## Contribute
 
 Update Please
