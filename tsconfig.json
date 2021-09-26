@@ -1,0 +1,31 @@
+{
+    "include": [
+        "src/**/*.ts"
+	],
+	"exclude": [
+		"coverage/**/*"
+	],
+    "compilerOptions": {
+        "outDir": "dist",
+		"baseUrl": "src",
+        "module": "commonjs",
+        "target": "es2017",
+        "sourceMap": true,
+        "allowJs": false,
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noImplicitAny": false,
+        "noImplicitThis": false,
+        "noFallthroughCasesInSwitch": true,
+        "strictNullChecks": true,
+        "noUnusedLocals": true,
+        "removeComments": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "listFiles": false,
+        "esModuleInterop": true,
+        "noStrictGenericChecks": false,
+        "declaration": true
+	}
+}
