@@ -1,6 +1,11 @@
 # 군복무 D - Day 뱃지
 
 ![soldierDate](http://goonba.xyz/?endDate=20211218)
+![soldierDate](http://goonba.xyz/?division=navy&endDate=20211218)
+![soldierDate](http://goonba.xyz/?division=airforce&endDate=20211218)
+![soldierDate](http://goonba.xyz/?division=marine&endDate=20211218)
+
+
 
 현재 군 복무 중인 개발자 분들을 위해 만들었습니다.  
 일반 Github Badge와 동일한 방식을 가지고 있습니다.
