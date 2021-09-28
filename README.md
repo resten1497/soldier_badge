@@ -15,10 +15,18 @@
 ## Usage
 
 ```markdown
-![soldierDate](http://goonba.xyz/?endDate=YYYYMMDD)
+![soldierDate](http://goonba.xyz/?endDate=YYYYMMDD&division=DIVISION)
 ```
 
-> `YYYYMMDD`를 `전역일자`로 변경해주세요. ( 예시 : 20211218 )
+> `YYYYMMDD`를 `전역일자`로 변경해주세요. ( 예시 : 20211218 )  
+> `DIVISION` 군별 지정은 `Optional` 이며, 아래와 같은 Parameter를 가집니다. 
+
+- army : 육군 **(default)**
+- navy : 해군 
+- marine : 해병대 
+- airforce : 공군  
+
+
 
 ## Configuration & Setup
 
@@ -47,15 +55,16 @@ or
 ```sh
 npm start # 서버 PORT 기본 값 = 3000
 ```
+## Contribute  
+Update Please  
 
-## Contribute
+## Dependency
+[Shield.io](https://shields.io/)
 
-Update Please
 
 ## Questions
 
 * GitHub - [open issue](https://github.com/Resten1497/soldier_badge/issues)
 
 ## License
-
 Update Please
