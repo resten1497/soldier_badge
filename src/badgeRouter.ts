@@ -28,7 +28,8 @@ export function badgeRouter(req: express.Request, res: express.Response): void {
 		sendText('400 Bad Request', res);
 		return;
 	}
-
+	
+	res.set('Content-Type','image/png');
 	res.set('Cache-Control', 'no-cache');
 	res.send(createBadge(leftDate));
 }
