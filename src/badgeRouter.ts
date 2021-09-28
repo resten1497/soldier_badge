@@ -29,7 +29,6 @@ export function badgeRouter(req: express.Request, res: express.Response): void {
 		return;
 	}
 
-	res.set('Content-Type', 'image/svg+xml');
 	res.set('Cache-Control', 'no-cache');
 	res.send(createBadge(leftDate));
 }
