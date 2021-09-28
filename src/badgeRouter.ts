@@ -20,18 +20,25 @@ export async function badgeRouter(req: express.Request, res: express.Response): 
 		sendText('400 Bad Request', res);
 		return;
 	}
-
+	let division = ""
+	if (typeof req.query.division !== 'string'){
+		division="none"
+	}
+	else{
+		division = req.query.division;
+	}
 	const endDate = dayjs(req.query.endDate);
+	
 	const currentDate = dayjs().tz('Asia/Seoul').format('YYYYMMDD');
 	const leftDate = endDate.diff(currentDate, 'day');
 
 	if (isNaN(leftDate) === true) {
 		sendText('400 Bad Request', res);
 		return;
-	}
+	}	
 	
 	res.set('Content-Type','image/svg+xml');
 	res.set('Cache-Control', 'no-cache');
 
-	res.send(await createBadge(leftDate));
+	res.send(await createBadge(division,leftDate));
 }
