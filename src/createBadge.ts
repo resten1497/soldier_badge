@@ -5,11 +5,22 @@ import axios from 'axios';
  * @param leftDate 남은 군 복무 기간을 인자로 받습니다.
  * @returns SVG String
  */
-export async function createBadge(division:string,leftDate: number){
-
+export async function createBadge(division:string, leftDate: any){
 
 	let armydivision = getDivisionName(division)
-	let url =  `https://img.shields.io/badge/${armydivision['name']}- D -- ${leftDate} -${armydivision['color']}`;
+	let url = "";
+	if(leftDate < 0){
+		leftDate  = "전역";
+		url =  `https://img.shields.io/badge/${armydivision['name']}- ${encodeURIComponent(leftDate)} -${armydivision['color']}`;
+	}
+	else if(leftDate == 0){
+		leftDate = "Day";
+		url =  `https://img.shields.io/badge/${armydivision['name']}- D -- ${encodeURIComponent(leftDate)} -${armydivision['color']}`;
+	}
+	else{
+		url =  `https://img.shields.io/badge/${armydivision['name']}- D -- ${leftDate} -${armydivision['color']}`;
+	}
+	console.debug(url)
 	let svg = await downloadSvg(url)
 	return svg.data;
 

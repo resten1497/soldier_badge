@@ -31,7 +31,7 @@ export async function badgeRouter(req: express.Request, res: express.Response): 
 	
 	const currentDate = dayjs().tz('Asia/Seoul').format('YYYYMMDD');
 	const leftDate = endDate.diff(currentDate, 'day');
-
+	console.debug(leftDate)
 	if (isNaN(leftDate) === true) {
 		sendText('400 Bad Request', res);
 		return;
