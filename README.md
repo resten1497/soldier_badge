@@ -55,7 +55,11 @@ or
 npm start # 서버 PORT 기본 값 = 3000
 ```
 ## Contribute  
-Update Please  
+<a href="https://github.com/Resten1497/soldier_badge/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Resten1497/soldier_badge" />
+</a>
+
+Made with [contributors-img](https://contrib.rocks).
 
 ## Dependency
 [Shield.io](https://shields.io/)
@@ -66,4 +70,4 @@ Update Please
 * GitHub - [open issue](https://github.com/Resten1497/soldier_badge/issues)
 
 ## License
-Update Please
+MIT
