@@ -1,9 +1,11 @@
 # 군복무 D - Day 뱃지
 
-![soldierDate](http://goonba.xyz/?endDate=20211218)
-![soldierDate](http://goonba.xyz/?division=navy&endDate=20211218)
-![soldierDate](http://goonba.xyz/?division=airforce&endDate=20211218)
-![soldierDate](http://goonba.xyz/?division=marine&endDate=20211218)
+
+## ‼ 도메인 만료로 URL이 변경되었습니다!!! (2022/05/02)
+![soldierDate](https://soldierdate.herokuapp.com/?endDate=20211218)
+![soldierDate](https://soldierdate.herokuapp.com/?division=navy&endDate=20211218)
+![soldierDate](https://soldierdate.herokuapp.com/?division=airforce&endDate=20211218)
+![soldierDate](https://soldierdate.herokuapp.com/?division=marine&endDate=20211218)
 
 
 
@@ -14,7 +16,7 @@
 ## Usage
 
 ```markdown
-![soldierDate](http://goonba.xyz/?endDate=YYYYMMDD&division=DIVISION)
+![soldierDate](https://soldierdate.herokuapp.com/?endDate=YYYYMMDD&division=DIVISION)
 ```
 
 > `YYYYMMDD`를 `전역일자`로 변경해주세요. ( 예시 : 20211218 )  
