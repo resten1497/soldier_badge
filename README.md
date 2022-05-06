@@ -1,7 +1,7 @@
 # 군복무 D - Day 뱃지
 
 
-## ‼ 도메인 만료로 URL이 변경되었습니다!!! (2022/05/02)
+## ‼ 도메인 만료로 URL이 변경되었습니다!!! (2022/05/02)- 도메인 재연장 완료
 ![soldierDate](https://soldierdate.herokuapp.com/?endDate=20211218)
 ![soldierDate](https://soldierdate.herokuapp.com/?division=navy&endDate=20211218)
 ![soldierDate](https://soldierdate.herokuapp.com/?division=airforce&endDate=20211218)
